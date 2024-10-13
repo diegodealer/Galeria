@@ -1,26 +1,30 @@
 body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: darkgrey;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
 }
 
 div.container{
-    flex-direction: column;
-    flex-wrap: wrap;
     margin: 5px;
     padding: 10px;
     border-style: solid;
     background-color: darkred;
 }
 
+.Galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Galería responsive */
+    gap: 10px;
+    padding: 20px
+}
+
 div.imagen{
-    display: flex;
-    flex-direction: column;
-    border-style: dotted;
+    background-color: #ccc;
+    height: 200px;
 }
 
 footer{
     text-align: center;
+    margin-top: auto;
 }
