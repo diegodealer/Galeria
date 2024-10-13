@@ -2,7 +2,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    background-color: darkgrey;
+    background-color: #A8D5BA;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -10,11 +10,16 @@ body{
 div.container{
     margin: 5px;
     padding: 10px;
-    border-style: solid;
-    background-color: darkred;
+    border-style: double;
+    background-color: #F9F3E1;
+    border: 4px double #8B5A2B; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #F9F3E1;
 }
 
 .Galeria{
+    background-color: #FFFF;
     height: 800px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -32,9 +37,17 @@ div.imagen{
     text-align: center;
     margin-top: auto;
     height: 100px; 
+    color: #8B5A2B;
 }
 
 footer{
     text-align: center;
     margin-top: auto;
+    color: #8B5A2B;
+    border-style: double;
+    border: 4px double #8B5A2B; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #F9F3E1;
+    background-color: #F9F3E1;
 }
