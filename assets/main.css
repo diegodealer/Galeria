@@ -7,6 +7,42 @@ body{
     min-height: 100vh;
 }
 
+.contenedortexto{
+   flex-direction: row;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+h2{
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px; 
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 div.container{
     margin: 5px;
     padding: 10px;
