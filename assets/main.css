@@ -23,4 +23,5 @@ div.imagen{
 
 footer{
     text-align: center;
+    align-items: flex-end;
 }
